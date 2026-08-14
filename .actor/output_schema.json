@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of Stack Overflow Question Tracker",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Questions",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}

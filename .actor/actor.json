@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "stackoverflow-question-tracker",
+    "title": "Stack Overflow Question Tracker — New Questions by Tag",
+    "description": "Track new Stack Overflow (or any Stack Exchange site) questions by tag. Get title, tags, view/answer counts, and link the moment someone asks about your product, library, or topic.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile"
+}

@@ -1,0 +1,46 @@
+{
+    "title": "Stack Overflow Question Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "tags": {
+            "title": "Tags",
+            "type": "string",
+            "editor": "textfield",
+            "description": "One or more tags to match, semicolon-separated for AND logic, e.g. \"rust;async\" (must have both tags). Use exact Stack Exchange tag spelling, e.g. \"docker\" not \"Docker\"."
+        },
+        "site": {
+            "title": "Site",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Stack Exchange site to search, by subdomain, e.g. \"stackoverflow\", \"serverfault\", \"askubuntu\", \"dba\", \"superuser\".",
+            "default": "stackoverflow"
+        },
+        "unansweredOnly": {
+            "title": "Unanswered only",
+            "type": "boolean",
+            "editor": "checkbox",
+            "description": "Only return questions with zero answers so far.",
+            "default": false
+        },
+        "daysBack": {
+            "title": "Days back",
+            "type": "integer",
+            "editor": "number",
+            "description": "How many days back from today to search, by question creation date.",
+            "default": 7,
+            "minimum": 1,
+            "maximum": 90
+        },
+        "maxResults": {
+            "title": "Max results",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of questions to return, most recent first.",
+            "default": 25,
+            "minimum": 1,
+            "maximum": 100
+        }
+    },
+    "required": ["tags"]
+}
