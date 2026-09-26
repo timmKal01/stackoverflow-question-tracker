@@ -1,0 +1,73 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "questionId",
+                    "title",
+                    "tags",
+                    "site",
+                    "isAnswered",
+                    "answerCount",
+                    "viewCount",
+                    "score",
+                    "owner",
+                    "createdAt",
+                    "link"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "questionId": {
+                        "label": "Question ID",
+                        "format": "number"
+                    },
+                    "title": {
+                        "label": "Title",
+                        "format": "text"
+                    },
+                    "tags": {
+                        "label": "Tags",
+                        "format": "array"
+                    },
+                    "site": {
+                        "label": "Site",
+                        "format": "text"
+                    },
+                    "isAnswered": {
+                        "label": "Is answered",
+                        "format": "boolean"
+                    },
+                    "answerCount": {
+                        "label": "Answer count",
+                        "format": "number"
+                    },
+                    "viewCount": {
+                        "label": "View count",
+                        "format": "number"
+                    },
+                    "score": {
+                        "label": "Score",
+                        "format": "number"
+                    },
+                    "owner": {
+                        "label": "Owner",
+                        "format": "text"
+                    },
+                    "createdAt": {
+                        "label": "Created at",
+                        "format": "date"
+                    },
+                    "link": {
+                        "label": "Link",
+                        "format": "link"
+                    }
+                }
+            }
+        }
+    }
+}
