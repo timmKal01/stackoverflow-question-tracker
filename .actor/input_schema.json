@@ -7,7 +7,9 @@
             "title": "Tags",
             "type": "string",
             "editor": "textfield",
-            "description": "One or more tags to match, semicolon-separated for AND logic, e.g. \"rust;async\" (must have both tags). Use exact Stack Exchange tag spelling, e.g. \"docker\" not \"Docker\"."
+            "description": "One or more tags to match, semicolon-separated for AND logic, e.g. \"rust;async\" (must have both tags). Use exact Stack Exchange tag spelling, e.g. \"docker\" not \"Docker\".",
+            "prefill": "docker",
+            "default": "docker"
         },
         "site": {
             "title": "Site",
