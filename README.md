@@ -66,4 +66,4 @@ the search returns 0 questions or 100.
 
 ## Related products
 
-- [GitHub Repo Discovery Tracker](https://github.com/timmKal01/github-repo-discovery-tracker) — find new open-source projects in the same ecosystem you're already tracking questions about
+- [New GitHub Repos Finder by Topic & Language](https://apify.com/m_ctim/github-repo-discovery-tracker): find new open-source projects in the same ecosystem you're already tracking questions about
